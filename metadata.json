@@ -1,0 +1,6 @@
+{
+  "name": "Yoga Calendar Jakarta",
+  "description": "Find Your Calm, Book Your Yoga Session. Your curated directory of local yoga classes and events in Jakarta.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

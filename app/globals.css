@@ -1,0 +1,24 @@
+@import "tailwindcss";
+
+@source "../components/**/*.{js,ts,jsx,tsx}";
+@source "../app/**/*.{js,ts,jsx,tsx}";
+
+@theme {
+  --color-brand-cream: #FCFAF6;
+  --color-brand-beige: #F4ECE4;
+  --color-brand-sand: #E8DEC9;
+  --color-brand-brown: #4A3E3D;
+  --color-brand-sage: #708271;
+  --color-brand-sagedark: #435144;
+  --color-brand-accent: #E5A93B;
+  --color-brand-charcoal: #2B2120;
+}
+
+@layer base {
+  body {
+    background-color: var(--color-brand-cream);
+    color: var(--color-brand-charcoal);
+    font-family: var(--font-sans, system-ui, -apple-system, sans-serif);
+  }
+}
+
