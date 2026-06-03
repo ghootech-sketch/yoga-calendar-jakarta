@@ -25,7 +25,7 @@ export default function EventForm({ initialData, onSubmit, titleLabel, onCancelH
   const [slug, setSlug] = useState(initialData?.slug || '');
   const [category, setCategory] = useState(initialData?.category || 'Hatha Yoga');
   const [description, setDescription] = useState(initialData?.description || '');
-  const [imageUrl, setImageUrl] = useState(initialData?.imageUrl || 'https://picsum.photos/seed/yoga-generic/1200/800');
+  const [imageUrl, setImageUrl] = useState(initialData?.imageUrl || 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=800&fit=crop&q=80');
   const [startDate, setStartDate] = useState(initialData?.startDate || '2026-06-15');
   const [startTime, setStartTime] = useState(initialData?.startTime || '09:00');
   const [endTime, setEndTime] = useState(initialData?.endTime || '10:30');
@@ -435,4 +435,5 @@ export default function EventForm({ initialData, onSubmit, titleLabel, onCancelH
     </form>
   );
 }
+
 
