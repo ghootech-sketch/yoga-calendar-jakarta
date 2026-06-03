@@ -111,7 +111,7 @@ export default function HomePageContent() {
                   <div className="p-1 rounded-full bg-brand-sage/10 text-brand-sage">
                     <CheckCircle className="w-4 h-4" />
                   </div>
-                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">Instruktur RYT-205+</span>
+                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">Instruktur RYT-200+</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="p-1 rounded-full bg-brand-sage/10 text-brand-sage">
@@ -303,7 +303,7 @@ export default function HomePageContent() {
                 <div className="w-px h-10 bg-brand-beige"></div>
                 <div>
                   <h4 className="text-2xl font-bold text-brand-sage">100%</h4>
-                  <p className="text-xs text-brand-brown/60 uppercase font-bold tracking-widest mt-1">Instruktur Lisens</p>
+                  <p className="text-xs text-brand-brown/60 uppercase font-bold tracking-widest mt-1">Instruktur Berlisensi</p>
                 </div>
               </div>
             </div>
