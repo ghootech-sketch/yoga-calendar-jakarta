@@ -95,8 +95,8 @@ export const Footer: React.FC = () => {
             &copy; {currentYear} Yoga Calendar Jakarta. All rights reserved.
           </p>
           <div className="flex gap-6 text-xs text-brand-brown/50">
-            <Link href="#" className="hover:text-brand-sage transition-colors">Kebijakan Privasi</Link>
-            <Link href="#" className="hover:text-brand-sage transition-colors">Syarat & Ketentuan</Link>
+            <Link href="/privacy" className="hover:text-brand-sage transition-colors">Kebijakan Privasi</Link>
+            <Link href="/terms" className="hover:text-brand-sage transition-colors">Syarat &amp; Ketentuan</Link>
           </div>
         </div>
       </div>
