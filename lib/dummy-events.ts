@@ -127,7 +127,7 @@ export const dummyEvents: Event[] = [
     title: 'Sunset Padang Pandang Yoga Retreat',
     slug: 'sunset-padang-pandang-yoga-retreat',
     category: 'Sunset Yoga',
-    instructor: 'Mayra Aditha's,
+    instructor: "Mayra Aditha's",
     location: 'Rooftop The One Jakarta - SCBD',
     date: '2025-06-21',
     time: '17:00',
@@ -180,3 +180,4 @@ export const dummyEvents: Event[] = [
     isHighlighted: false,
   },
 ];
+
