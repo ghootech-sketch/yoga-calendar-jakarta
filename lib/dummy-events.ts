@@ -14,6 +14,7 @@ export interface Event {
   imageUrl: string;
   description: string;
   organizerId: string;
+  organizerName: string;
   status: 'active' | 'cancelled' | 'completed' | 'draft' | 'published';
   isHighlighted: boolean;
   highlightSubtitle?: string;
@@ -37,6 +38,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=1200&h=800&fit=crop&q=80',
     description: 'Sesi Hatha Yoga pagi hari yang memyegarkan dan menenangkan pikiran. Cocok untuk semua level.',
     organizerId: 'org-001',
+    organizerName: 'Yoga Calendar Jakarta Official',
     status: 'active',
     isHighlighted: true,
     highlightSubtitle: 'Sesi Pagi Yoga Terpopuler',
@@ -58,6 +60,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1506126613408-eca07ce68773?w=1200&h=800&fit=crop&q=80',
     description: 'Class Vinyasa dinamis untuk level intermediate. Fokus pada aliran gerak dan pernafasan.',
     organizerId: 'org-002',
+    organizerName: 'Jakarta Wellness Studio',
     status: 'active',
     isHighlighted: true,
     highlightSubtitle: 'Kelas Sore Paling Disukai',    
@@ -79,6 +82,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1518611012118-696072aa579a?w=1200&h:800m&fit=crop&q=90',
     description: 'Yoga khas untuk ibu hamil dengan gerakan lembut dan aman. Dipimpin oleh instruktur bersertifikat prenatal.',
     organizerId: 'org-003',
+    organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
   },
@@ -98,6 +102,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1593811167562-9cef47bfc4d7?w=1200&h=800&fit=crop&q=80',
     description: 'Pengalaman unik menggabungkan yoga restoratif dengan sesi sound bath meditatif menggunakan singing bowls.',
     organizerId: 'org-001',
+    organizerName: 'Yoga Calendar Jakarta Official',
     status: 'active',
     isHighlighted: true,
     highlightSubtitle: 'Pengalaman Meditatif Unik',
@@ -119,6 +124,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1601925228008-854b1d44c50e?w=1200&h=800&fit=crop&q=90',
     description: 'Belajar teknik pernafasan dasar in Yoga. Cocok untuk pemula yang ingin memahami power of breath.',
     organizerId: 'org-002',
+    organizerName: 'Jakarta Wellness Studio',
     status: 'active',
     isHighlighted: false,
   },
@@ -138,6 +144,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1545389336-cf090694d435e?w=1200&h=800&fit=crop&q=80',
     description: 'Yoga di rooftop sambil meniikmati sunset Jakarta. Pengalaman tak terlupakan yang memadukan ikon kota dengan yoga.',
     organizerId: 'org-003',
+    organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
   },
@@ -157,6 +164,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1552196563-55cd4e45efb3?w=1200&h=800&fit=crop&q=80',
     description: 'Yoga khusus dirancang untuk mengatasi nyeri punggung bawah dengan pendekatan terapeutik. Dipimpin fisioterapis bersertifikat.',
     organizerId: 'org-002',
+    organizerName: 'Jakarta Wellness Studio',
     status: 'active',
     isHighlighted: false,
   },
@@ -176,6 +184,7 @@ export const DUMMY_EVENTS: Event[] = [
     imageUrl: 'https://images.unsplash.com/photo-1599901860904-17e6ed7083a0?w=1200&h=800&fit=crop&q=80',
     description: 'Retreat setengah hari menggabungkan yoga mindful dan meditasi dipandu dalam suasana yang tenang.',
     organizerId: 'org-003',
+    organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
   },
