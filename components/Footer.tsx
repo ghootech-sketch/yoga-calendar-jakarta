@@ -20,7 +20,7 @@ export const Footer: React.FC = () => {
             </p>
             <div className="flex space-x-4 pt-2">
               <a
-                href="https://instagram.com"
+                href="https://instagram.com/yogacalendarjakarta"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-brand-brown/60 hover:text-brand-sage transition-colors p-2 bg-brand-cream rounded-full shadow-sm"
