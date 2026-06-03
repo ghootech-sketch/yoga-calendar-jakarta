@@ -8,6 +8,7 @@ import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { Button } from '@/components/Button';
 import { MockAuthService } from '@/lib/auth/mock-auth';
+import Head from 'next/head';
 
 export default function LoginPage() {
   const router = useRouter();
@@ -82,6 +83,7 @@ export default function LoginPage() {
 
   return (
     <div className="min-h-screen flex flex-col bg-brand-cream text-brand-charcoal overflow-x-hidden selection:bg-brand-sage/20 selection:text-brand-brown">
+      <Head><title>Portal EO & Admin | Yoga Calendar Jakarta</title></Head>
       <Header />
 
       <main className="flex-1 flex items-center justify-center px-4 py-32 md:py-40">
