@@ -14,13 +14,13 @@ export interface Event {
   imageUrl: string;
   description: string;
   organizerId: string;
-  status: 'active' | 'cancelled' | 'completed';
+  status: 'active' | 'cancelled' | 'completed' | 'draft' | 'published';
   isHighlighted: boolean;
   highlightSubtitle?: string;
   highlightOrder?: number;
 }
 
-export const dummyEvents: Event[] = [
+export const DUMMY_EVENTS: Event[] = [
   {
     id: 'event-001',
     title: 'Hatha Yoga Morning Session',
@@ -181,3 +181,23 @@ export const dummyEvents: Event[] = [
   },
 ];
 
+
+
+export const CITIES: string[] = [
+  'Jakarta',
+  'Bali',
+  'Bandung',
+  'Surabaya',
+  'Yogyakarta',
+];
+
+export const CATEGORIES: { name: string }[] = [
+  { name: 'Hatha Yoga' },
+  { name: 'Vinyasa Flow' },
+  { name: 'Prenatal Yoga' },
+  { name: 'Meditation' },
+  { name: 'Yoga & Sound' },
+  { name: 'Breathwork' },
+  { name: 'Sunset Yoga' },
+  { name: 'Yoga Therapeutic' },
+];
