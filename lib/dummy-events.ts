@@ -273,13 +273,20 @@ export const CITIES: string[] = [
   'Yogyakarta',
 ];
 
-export const CATEGORIES: { name: string }[] = [
-  { name: 'Hatha Yoga' },
-  { name: 'Vinyasa Flow' },
-  { name: 'Prenatal Yoga' },
-  { name: 'Meditation' },
-  { name: 'Yoga & Sound' },
-  { name: 'Breathwork' },
-  { name: 'Sunset Yoga' },
-  { name: 'Yoga Therapeutic' },
+export interface Category {
+  name: string;
+  description: string;
+  count: number;
+  bgClass: string;
+}
+
+export const CATEGORIES: Category[] = [
+  { name: 'Hatha Yoga',       description: 'Latihan postur dasar yang cocok untuk semua level, memperkuat tubuh dan menenangkan pikiran.',     count: 12, bgClass: 'bg-brand-sage/10 text-brand-sage' },
+  { name: 'Vinyasa Flow',     description: 'Gerakan dinamis yang mengalir selaras napas, membangun kekuatan dan fleksibilitas tubuh.',         count: 9,  bgClass: 'bg-blue-100 text-blue-500' },
+  { name: 'Prenatal Yoga',    description: 'Kelas khusus ibu hamil untuk menjaga kesehatan fisik dan mental selama masa kehamilan.',           count: 6,  bgClass: 'bg-pink-100 text-pink-400' },
+  { name: 'Meditation',       description: 'Sesi meditasi terpandu untuk melatih fokus, ketenangan, dan kesadaran diri secara mendalam.',      count: 8,  bgClass: 'bg-purple-100 text-purple-400' },
+  { name: 'Yoga & Sound',     description: 'Kombinasi yoga restoratif dengan terapi suara singing bowl untuk relaksasi total.',                count: 5,  bgClass: 'bg-amber-100 text-amber-500' },
+  { name: 'Breathwork',       description: 'Teknik pernapasan sadar untuk meningkatkan energi, mengurangi stres, dan menyeimbangkan emosi.',   count: 4,  bgClass: 'bg-teal-100 text-teal-500' },
+  { name: 'Sunset Yoga',      description: 'Yoga sore hari di lokasi premium sambil menikmati suasana matahari terbenam Jakarta.',             count: 7,  bgClass: 'bg-orange-100 text-orange-400' },
+  { name: 'Yoga Therapeutic', description: 'Yoga rehabilitatif yang dirancang untuk memulihkan cedera dan mengatasi kondisi medis tertentu.', count: 3,  bgClass: 'bg-green-100 text-green-500' },
 ];
