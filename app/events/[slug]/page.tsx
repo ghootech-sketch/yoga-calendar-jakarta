@@ -14,6 +14,7 @@ import { DUMMY_EVENTS } from '@/lib/dummy-events';
 import { EventService } from '@/lib/events/event-service';
 import { formatPrice, formatDate } from '@/lib/utils';
 import { getEventAvailableSlots } from '@/lib/bookings/booking-store';
+import Head from 'next/head';
 
 export default function EventDetailPage() {
   const params = useParams();
