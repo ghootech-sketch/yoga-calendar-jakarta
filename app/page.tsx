@@ -10,7 +10,7 @@ export const metadata: Metadata = {
     description: 'Eksplorasi kelas spiritual & yoga terbaik di Jakarta. Akses bimbingan instruktur profesional bersertifikasi.',
     images: [
       {
-        url: 'https://picsum.photos/seed/yoga-main/1200/630',
+        url: 'https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1200&h=800&fit=crop&q=80',
         width: 1200,
         height: 630,
         alt: 'Yoga Calendar Jakarta',
@@ -22,3 +22,4 @@ export const metadata: Metadata = {
 export default function HomePage() {
   return <HomePageContent />;
 }
+
