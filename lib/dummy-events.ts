@@ -25,6 +25,9 @@ export interface Event {
   availableSlot: number;
   startDate: string;
   endDate?: string;
+  benefits?: string[];
+  requirements?: string[];
+  photos?: string[];
   isHighlighted: boolean;
   highlightSubtitle?: string;
   highlightOrder?: number;
