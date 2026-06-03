@@ -16,6 +16,11 @@ export interface Event {
   organizerId: string;
   organizerName: string;
   status: 'active' | 'cancelled' | 'completed' | 'draft' | 'published';
+  city: string;
+  quota: number;
+  availableSlot: number;
+  startDate: string;
+  endDate?: string;
   isHighlighted: boolean;
   highlightSubtitle?: string;
   highlightOrder?: number;
@@ -43,6 +48,10 @@ export const DUMMY_EVENTS: Event[] = [
     isHighlighted: true,
     highlightSubtitle: 'Sesi Pagi Yoga Terpopuler',
     highlightOrder: 1,
+    city: 'Jakarta',
+    quota: 15,
+    availableSlot: 7,
+    startDate: '2025-06-10',
   },
   {
     id: 'event-002',
@@ -65,6 +74,10 @@ export const DUMMY_EVENTS: Event[] = [
     isHighlighted: true,
     highlightSubtitle: 'Kelas Sore Paling Disukai',    
     highlightOrder: 2,
+    city: 'Jakarta',
+    quota: 12,
+    availableSlot: 7,
+    startDate: '2025-06-12',
   },
   {
     id: 'event-003',
@@ -85,6 +98,10 @@ export const DUMMY_EVENTS: Event[] = [
     organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
+    city: 'Jakarta',
+    quota: 10,
+    availableSlot: 7,
+    startDate: '2025-06-14',
   },
   {
     id: 'event-004',
@@ -107,6 +124,10 @@ export const DUMMY_EVENTS: Event[] = [
     isHighlighted: true,
     highlightSubtitle: 'Pengalaman Meditatif Unik',
     highlightOrder: 3,
+    city: 'Jakarta',
+    quota: 20,
+    availableSlot: 9,
+    startDate: '2025-06-15',
   },
   {
     id: 'event-005',
@@ -127,6 +148,10 @@ export const DUMMY_EVENTS: Event[] = [
     organizerName: 'Jakarta Wellness Studio',
     status: 'active',
     isHighlighted: false,
+    city: 'Jakarta',
+    quota: 20,
+    availableSlot: 12,
+    startDate: '2025-06-18',
   },
   {
     id: 'event-006',
@@ -147,6 +172,10 @@ export const DUMMY_EVENTS: Event[] = [
     organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
+    city: 'Jakarta',
+    quota: 25,
+    availableSlot: 15,
+    startDate: '2025-06-20',
   },
   {
     id: 'event-007',
@@ -167,6 +196,10 @@ export const DUMMY_EVENTS: Event[] = [
     organizerName: 'Jakarta Wellness Studio',
     status: 'active',
     isHighlighted: false,
+    city: 'Jakarta',
+    quota: 10,
+    availableSlot: 3,
+    startDate: '2025-06-21',
   },
   {
     id: 'event-008',
@@ -187,6 +220,10 @@ export const DUMMY_EVENTS: Event[] = [
     organizerName: 'Mindful Space Jakarta',
     status: 'active',
     isHighlighted: false,
+    city: 'Jakarta',
+    quota: 15,
+    availableSlot: 5,
+    startDate: '2025-06-22',
   },
 ];
 
