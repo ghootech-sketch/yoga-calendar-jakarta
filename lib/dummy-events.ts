@@ -7,6 +7,10 @@ export interface Event {
   location: string;
   date: string;
   time: string;
+  startTime: string;
+  endTime: string;
+  locationName: string;
+  locationAddress: string;
   duration: string;
   price: number;
   capacity: number;
@@ -34,6 +38,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Hatha Yoga',
     instructor: 'Anzy Sari',
     location: 'Yoga Pura Studio - Kebayoran Baru',
+    startTime: '07:00',
+    endTime: '08:30',
+    locationName: 'Yoga Pura Studio',
+    locationAddress: 'Kebayoran Baru, Jakarta',
     date: '2025-06-10',
     time: '07:00',
     duration: '90 menit',
@@ -60,6 +68,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Vinyasa Flow',
     instructor: 'Raheyu Prastiti',
     location: 'Soul Studio - Senten',
+    startTime: '18:30',
+    endTime: '19:30',
+    locationName: 'Soul Studio',
+    locationAddress: 'Senten, Jakarta',
     date: '2025-06-12',
     time: '18:30',
     duration: '60 menit',
@@ -86,6 +98,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Prenatal Yoga',
     instructor: 'Dr. Nadia Widanti',
     location: 'Bump & Bloom - Pondok Indah',
+    startTime: '10:00',
+    endTime: '11:15',
+    locationName: 'Bump & Bloom',
+    locationAddress: 'Pondok Indah, Jakarta',
     date: '2025-06-14',
     time: '10:00',
     duration: '75 menit',
@@ -110,6 +126,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Yoga & Sound',
     instructor: 'Sinta Anisa',
     location: 'The Sanctuary - Ciputat',
+    startTime: '16:00',
+    endTime: '18:00',
+    locationName: 'The Sanctuary',
+    locationAddress: 'Ciputat, Jakarta',
     date: '2025-06-15',
     time: '16:00',
     duration: '120 menit',
@@ -136,6 +156,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Breathwork',
     instructor: 'Bagus Pratama',
     location: 'Anapanasati Studio - Pasar Minggu',
+    startTime: '08:00',
+    endTime: '09:00',
+    locationName: 'Anapanasati Studio',
+    locationAddress: 'Pasar Minggu, Jakarta',
     date: '2025-06-18',
     time: '08:00',
     duration: '60 menit',
@@ -160,6 +184,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Sunset Yoga',
     instructor: "Mayra Aditha's",
     location: 'Rooftop The One Jakarta - SCBD',
+    startTime: '17:00',
+    endTime: '18:30',
+    locationName: 'Rooftop The One Jakarta',
+    locationAddress: 'SCBD, Jakarta',
     date: '2025-06-21',
     time: '17:00',
     duration: '90 menit',
@@ -184,6 +212,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Yoga Therapeutic',
     instructor: 'Dr. Rezi Irawan',
     location: 'Lumina Wellness - Mempeng',
+    startTime: '10:00',
+    endTime: '11:30',
+    locationName: 'Lumina Wellness',
+    locationAddress: 'Mempeng, Jakarta',
     date: '2025-06-23',
     time: '10:00',
     duration: '90 menit',
@@ -208,6 +240,10 @@ export const DUMMY_EVENTS: Event[] = [
     category: 'Meditation',
     instructor: 'Yoki Satyawan',
     location: 'Inner Peace Studio - Petaling Jambe',
+    startTime: '09:00',
+    endTime: '12:00',
+    locationName: 'Inner Peace Studio',
+    locationAddress: 'Petaling Jambe, Jakarta',
     date: '2025-06-28',
     time: '09:00',
     duration: '180 menit',
