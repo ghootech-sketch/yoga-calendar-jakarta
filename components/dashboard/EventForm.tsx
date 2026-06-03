@@ -171,7 +171,7 @@ export default function EventForm({ initialData, onSubmit, titleLabel, onCancelH
           <select
             className="w-full px-4 py-3 bg-brand-cream/20 border border-brand-beige rounded-2xl focus:outline-none focus:ring-1 focus:ring-brand-sage focus:border-brand-sage transition-all font-semibold"
             value={category}
-            onChange={(e) => setCategory(e.target.value)}
+            onChange={(e) => setCategory(e.target.value as 'Hatha Yoga' | 'Vinyasa Flow' | 'Prenatal Yoga' | 'Meditation' | 'Yoga & Sound' | 'Breathwork' | 'Sunset Yoga' | 'Yoga Therapeutic')}
           >
             <option value="Hatha Yoga">Hatha Yoga</option>
             <option value="Vinyasa Flow">Vinyasa Flow</option>
@@ -435,3 +435,4 @@ export default function EventForm({ initialData, onSubmit, titleLabel, onCancelH
     </form>
   );
 }
+
