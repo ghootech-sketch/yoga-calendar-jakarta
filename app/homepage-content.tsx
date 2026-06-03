@@ -130,7 +130,7 @@ export default function HomePageContent() {
               className="lg:col-span-6 relative aspect-[5/4] sm:aspect-[4/3] lg:aspect-square w-full rounded-3xl overflow-hidden shadow-2xl border-4 border-white"
             >
               <Image
-                src="https://picsum.photos/seed/yoga-main/1200/1200"
+                src="https://images.unsplash.com/photo-1588286840104-8957b019727f?w=1200&h=1200&fit=crop&q=80"
                 alt="Mindful Yoga Practice Session"
                 fill
                 priority
@@ -144,7 +144,7 @@ export default function HomePageContent() {
               <div className="absolute bottom-6 left-6 right-6 bg-white/95 backdrop-blur-sm p-4 sm:p-5 rounded-2xl shadow-lg border border-brand-beige/40 flex items-center gap-4.5">
                 <div className="w-10 h-10 sm:w-12 sm:h-12 relative rounded-full overflow-hidden shrink-0 bg-brand-beige">
                   <Image
-                    src="https://picsum.photos/seed/avatar1/100/100"
+                    src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=100&h=100&fit=crop&q=80"
                     alt="Reviewer avatar"
                     fill
                     referrerPolicy="no-referrer"
@@ -267,7 +267,7 @@ export default function HomePageContent() {
             {/* Left Image */}
             <div className="lg:col-span-5 relative aspect-[4/3] sm:aspect-[16/10] lg:aspect-[4/5] rounded-3xl overflow-hidden shadow-xl border-2 border-white">
               <Image
-                src="https://picsum.photos/seed/about-yoga/800/1000"
+                src="https://images.unsplash.com/photo-1508672019048-805c876b67e2?w=800&h=1000&fit=crop&q=80"
                 alt="Asana posture illustration"
                 fill
                 sizes="(max-width: 1024px) 100vw, 40vw"
@@ -386,7 +386,7 @@ export default function HomePageContent() {
                   rel="noopener noreferrer"
                   className="w-full sm:w-auto focus:outline-none"
                 >
-                  <Button variant="outline" size="lg" className="w-full border-brand-cream/35 text-brand-cream hover:bg-white hover:text-brand-brown">
+                  <Button variant="outline" size="lg" className="w-full border-brand-cream/35 text-brand-cream hover:bw-white hover:text-brand-brown">
                     Konsultasi via WA
                   </Button>
                 </a>
