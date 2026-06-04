@@ -67,16 +67,16 @@ export default function HomePageContent() {
               className="lg:col-span-6 space-y-6 sm:space-y-8 text-left z-10"
             >
               <div className="inline-block px-3.5 py-1 text-[11px] font-bold tracking-widest uppercase text-brand-sage bg-brand-sage/10 rounded-full">
-                #1 Curated Wellness in Jakarta
+                Media Partner Event Yoga & Wellness
               </div>
               
               <h1 className="font-sans font-bold text-4xl sm:text-5xl md:text-6xl text-brand-brown tracking-tight leading-[1.1]">
-                Find Your Calm, <br />
-                <span className="text-brand-sage font-light italic">Book Your Yoga Session</span>
+                Discover Yoga Events, <br />
+                <span className="text-brand-sage font-light italic">All Across Indonesia</span>
               </h1>
               
               <p className="text-base sm:text-lg text-brand-brown/70 leading-relaxed font-light max-w-lg">
-                Hilangkan penat dan kembalikan fokus diri Anda. Yoga Calendar Jakarta mempermudah Anda mencari dan memesan sesi kelas yoga premium harian terbaik di seantero ibukota.
+                Platform media partner resmi untuk event yoga & wellness terkurasi di seluruh Indonesia. Temukan retreat, workshop, dan kelas reguler dari instruktur bersertifikat terpercaya.
               </p>
 
               <div className="flex flex-col sm:flex-row gap-3.5 pt-2">
@@ -105,13 +105,13 @@ export default function HomePageContent() {
                   <div className="p-1 rounded-full bg-brand-sage/10 text-brand-sage">
                     <CheckCircle className="w-4 h-4" />
                   </div>
-                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">8+ Studio Pilihan</span>
+                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">50+ Event Aktif</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="p-1 rounded-full bg-brand-sage/10 text-brand-sage">
                     <CheckCircle className="w-4 h-4" />
                   </div>
-                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">Instruktur RYT-200+</span>
+                  <span className="text-xs font-semibold text-brand-brown/75 tracking-wide">Instruktur Bersertifikat</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <div className="p-1 rounded-full bg-brand-sage/10 text-brand-sage">
@@ -282,23 +282,23 @@ export default function HomePageContent() {
                 Mengenal Kami
               </span>
               <h2 className="font-sans font-bold text-2xl sm:text-3xl md:text-4xl text-brand-brown tracking-tight">
-                Menghubungkan Anda Pada Oase Ketenangan Jakarta
+                Media Partner Terpercaya untuk Ekosistem Yoga Indonesia
               </h2>
               <div className="space-y-4 text-brand-brown/75 text-sm sm:text-base leading-relaxed font-light">
                 <p>
-                  Di tengah denyut kencang kehidupan metropolitan Jakarta, memiliki waktu hening untuk memusatkan jiwa dan raga bukanlah lagi sebuah kemewahan pilihan, melainkan kebutuhan spiritual pokok.
+                  Sebagai media partner resmi event yoga dan wellness, kami menghubungkan penyelenggara dengan peserta yang tepat di seluruh penjuru Indonesia.
                 </p>
                 <p>
-                  <strong>Yoga Calendar Jakarta</strong> didirikan atas dasar visi sederhana: menghapus kendala administratif dalam menemukan tempat bernaung yang tenang. Kami melakukan kurasi menyeluruh terhadap tempat-tempat asri, instruktur berpengalaman berlisensi, serta merancang sirkuit kedamaian dalam wujud kelas-kelas yang ramah batin.
+                  <strong>Yoga Calendar Jakarta</strong> adalah platform media partner yang mendukung pertumbuhan ekosistem yoga Indonesia. Kami mempromosikan event, retreat, dan workshop yoga dari penyelenggara terpercaya ke komunitas yogi aktif di seluruh nusantara.
                 </p>
                 <p>
-                  Kami mendukung praktik berkelanjutan, inklusivitas untuk segala batas kemampuan tubuh, serta pembentukan lingkungan komunitas yang senantiasa saling mengayomi secara damai.
+                  Bergabunglah bersama ratusan penyelenggara dan ribuan peserta yang telah mempercayakan promosi dan pencarian event yoga mereka kepada kami.
                 </p>
               </div>
               <div className="pt-4 flex items-center gap-6">
                 <div>
-                  <h4 className="text-2xl font-bold text-brand-sage">1500+</h4>
-                  <p className="text-xs text-brand-brown/60 uppercase font-bold tracking-widest mt-1">Yogi Terdaftar</p>
+                  <h4 className="text-2xl font-bold text-brand-sage">500+</h4>
+                  <p className="text-xs text-brand-brown/60 uppercase font-bold tracking-widest mt-1">Event Dipromosikan</p>
                 </div>
                 <div className="w-px h-10 bg-brand-beige"></div>
                 <div>
@@ -368,16 +368,16 @@ export default function HomePageContent() {
                 START YOUR JOURNEY
               </span>
               <h2 className="font-sans font-bold text-3xl sm:text-4xl md:text-5xl tracking-tight leading-tight">
-                Mulai Restorasi Jasmani & Rohani Anda Hari Ini
+                Daftarkan Event Yoga Anda Sekarang
               </h2>
               <p className="text-sm sm:text-base text-brand-cream/80 font-light leading-relaxed">
-                Jangan biarkan stres harian menumpuk kian parah. Bergabunglah bersama puluhan yogi Jakarta lainnya dalam menemukan ruang hening diri. Reservasi kelas terdekat sekarang juga sebelum kehabisan kuota tempat.
+                Jadikan event yoga & wellness Anda lebih mudah ditemukan oleh ribuan peserta aktif. Daftarkan sebagai penyelenggara (EO) dan kelola event Anda melalui portal khusus kami.
               </p>
               
               <div className="pt-4 flex flex-col sm:flex-row justify-center items-center gap-4">
                 <Link href="/events" className="w-full sm:w-auto focus:outline-none">
                   <Button variant="primary" size="lg" className="w-full bg-brand-sage hover:bg-brand-sagedark border-none">
-                    Mulai Pilih Kelas
+                    Daftar Sebagai EO
                   </Button>
                 </Link>
                 <a
