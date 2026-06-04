@@ -9,7 +9,7 @@ export interface ExtendedEvent extends Event {
 }
 
 const IS_SERVER = typeof window === 'undefined';
-const EVENTS_KEY = 'ycj_events_v1';
+const EVENTS_KEY = 'ycj_events_v3';
 
 // Seed events with default status and organizerId
 export const INITIAL_EXTENDED_EVENTS: ExtendedEvent[] = DUMMY_EVENTS.map((evt, idx) => ({
@@ -147,3 +147,4 @@ export const EventService = {
     return true;
   }
 };
+
